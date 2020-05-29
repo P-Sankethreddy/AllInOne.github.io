@@ -1,0 +1,1 @@
+jQuery.fn.wavify=function(i){if("function"!=typeof wavify)throw console.error("wavify is not a function. Be sure to include 'wavify.js' before you include 'jquery.wavify.js'."),"Error: wavify is not a function";return wavify(this,i)};
